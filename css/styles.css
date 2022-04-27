@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arsenal', sans-serif;
+}
+img {
+    width: 80%;
+}
+.header-container {
+    display: flex;
+}
+nav li {
+    flex: 1;
+}
