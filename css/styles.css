@@ -9,14 +9,14 @@ body {
     background-color: rgb(237, 242, 245);
 }
 /* shared properties */
-body, nav ul, footer .inline {
+body, nav ul, footer .inline, .my-skills {
     margin: 0;
     padding: 0;
 }
 header, footer {
     background-color: rgb(249, 240, 240);
 }
-header, footer, .about, #home {
+header, footer, .about, #home, .skills-section {
     padding: 1rem;
 }
 nav li a, #portfolio, #contact, .inline li {
@@ -94,8 +94,16 @@ footer .contact-info {
 .hide {
     display: none;
 }
+.wrap {
+    min-height: calc(100vh - 89px);
+}
+.skills-section {
+    background-color: rgba(208, 191, 191, .4);
+    margin: 1rem 2rem;
+    
+}
 /* id selectors */
-#portfolio {
+#portfolio, #skills {
     font-size: 2em;
 }
 #home {
@@ -152,6 +160,10 @@ footer .contact-info {
     .name {
         margin-right: auto;
     }
+    .skills-section {
+        width: 60%;
+        margin: 2rem auto;
+    }
 }
 @media screen and (min-width: 1024px) {
     .nav, .container2, .about {
@@ -168,5 +180,9 @@ footer .contact-info {
     }
     #home {
         margin-right: auto;
+    }
+    .skills-section {
+        width: 50%;
+        margin: 3rem auto;
     }
 }
