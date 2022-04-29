@@ -35,6 +35,9 @@ nav li a, .top a {
 h2, footer p, .container p {
     margin: 0;
 }
+.inline li, .top a, #home {
+    color: rgb(164, 67, 67);
+}
 /* type selectors */
 li {
     list-style-type: none;
@@ -132,7 +135,7 @@ footer .contact-info {
     }
     .hide a, .name {
         text-decoration: none;
-        color: black;
+        color: rgb(164, 67, 67);
         font-family: 'Nunito', sans-serif;
         font-weight: 800;
     }
