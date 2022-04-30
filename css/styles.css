@@ -94,9 +94,6 @@ footer .contact-info {
 .hide {
     display: none;
 }
-.wrap {
-    min-height: calc(100vh - 89px);
-}
 .skills-section {
     background-color: rgba(208, 191, 191, .4);
     margin: 1rem 2rem;
