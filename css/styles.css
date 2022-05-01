@@ -26,6 +26,9 @@ nav li a, .top a {
     text-decoration: none;
     font-weight: 800;
 }
+nav li, .sample-img, .contact-info li{
+    padding: .4rem; 
+}
 h2, footer p, .container2 p {
     margin: 0;
 }
@@ -41,7 +44,6 @@ img {
 }
 nav li{
     margin: 0 2rem;
-    padding: .4rem;
     display: flex;
     flex-direction: column;
 }
@@ -73,9 +75,6 @@ footer .contact-info {
 }
 .main-section {
     margin: 0 .5rem;
-}
-.sample-img, .contact-info li {
-    padding: .4rem; 
 }
 .email {
     margin-bottom: 1rem;
