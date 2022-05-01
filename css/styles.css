@@ -24,10 +24,9 @@ nav li a, #portfolio, #contact, .inline li {
 }
 nav li a, .top a {
     text-decoration: none;
-    color: rgb(40, 37, 37);
     font-weight: 800;
 }
-h2, footer p, .container p {
+h2, footer p, .container2 p {
     margin: 0;
 }
 .inline li, .top a, #home {
@@ -41,12 +40,16 @@ img {
     width: 90%;
 }
 nav li{
-    margin: .5rem 2rem;
-    padding: .8rem;
-    background-color: rgb(255, 207, 213);
+    margin: 0 2rem;
+    padding: .4rem;
+    display: flex;
+    flex-direction: column;
 }
-nav li:hover {
-    background-color: rgb(164, 67, 67);
+nav li a {
+    font-family: 'Nunito', sans-serif;
+    color: rgb(135, 98, 98);
+    padding: .8rem;
+    background-color: white;
 }
 footer p {
     padding: 0 1rem 1rem;
@@ -80,7 +83,7 @@ footer .contact-info {
 .top {
     margin-bottom: 0;
 }
-.container p {
+.container2 p {
     padding: .7rem 2rem 2rem;
 }
 .inline {
@@ -109,6 +112,15 @@ footer .contact-info {
 }
 /* media queries */
 @media screen and (min-width: 768px) {
+    nav li {
+        margin: 0;
+    }
+    nav li a {
+        background-color: rgb(249, 240, 240); 
+    }
+    nav li a:hover {
+        background-color: rgb(227, 178, 178);
+    }
     .container {
         justify-content: center;
     }
@@ -163,11 +175,11 @@ footer .contact-info {
     }
 }
 @media screen and (min-width: 1024px) {
+    nav li {
+        margin-top: .7rem;
+    }
     .nav, .container2, .about {
         display: flex;
-    }
-    .nav {
-        justify-content: flex-end;
     }
     .cont {
         flex-basis: 300px;
