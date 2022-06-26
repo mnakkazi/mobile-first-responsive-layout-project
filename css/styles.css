@@ -1,4 +1,6 @@
-/* universal selectors */
+/* =============================
+Universal Selectors 
+===============================*/
 * {
     box-sizing: border-box;
 }
@@ -8,7 +10,10 @@ body {
     text-align: center;
     background-color: rgb(237, 242, 245);
 }
-/* shared properties */
+
+/* =============================
+Shared Properties 
+===============================*/
 body, nav ul, footer .inline, .my-skills {
     margin: 0;
     padding: 0;
@@ -35,7 +40,10 @@ h2, footer p, .container2 p {
 .inline li, .top a, #home {
     color: rgb(164, 67, 67);
 }
-/* type selectors */
+
+/* =============================
+Type Selectors 
+===============================*/
 li {
     list-style-type: none;
 }
@@ -61,7 +69,10 @@ footer .contact-info {
     padding: 2rem;
     border-bottom: 1px solid lightcoral;
 }
-/* class selectors */
+
+/* =============================
+Class Selectors 
+===============================*/
 .pfp {
     width: 60%;
     margin: 0 auto;
@@ -101,7 +112,10 @@ footer .contact-info {
     margin: 1rem 2rem;
     
 }
-/* id selectors */
+
+/* =============================
+ID Selectors 
+===============================*/
 #portfolio, #skills {
     font-size: 2em;
 }
@@ -109,7 +123,10 @@ footer .contact-info {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.5em;
 }
-/* media queries */
+
+/* =============================
+Media Queries 
+===============================*/
 @media screen and (min-width: 768px) {
     nav li {
         margin: 0;
@@ -173,6 +190,7 @@ footer .contact-info {
         margin: 2rem auto;
     }
 }
+
 @media screen and (min-width: 1024px) {
     nav li {
         margin-top: .7rem;
